@@ -1,0 +1,40 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuciones
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos locales
+uploads/*
+!uploads/.gitkeep
+Dataset/Con_Mascarilla/*
+!Dataset/Con_Mascarilla/.gitkeep
+Dataset/Sin_Mascarilla/*
+!Dataset/Sin_Mascarilla/.gitkeep
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+.env
