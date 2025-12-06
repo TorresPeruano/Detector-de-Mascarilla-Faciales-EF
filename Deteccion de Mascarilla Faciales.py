@@ -1,5 +1,5 @@
 import cv2
-from ultralytics import YOLO # Importación cambiada
+from ultralytics import YOLO 
 import requests
 import numpy as np
 import os
